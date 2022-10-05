@@ -1,0 +1,30 @@
+.header{
+    background: yellowgreen;
+    padding: 5% 2% 5% 2%;
+}
+table{
+    list-style: none;
+    float: right;
+    text-decoration: none;
+}
+
+a{
+    margin: 0 1rem 0 0;
+    /* border:3px solid red; */
+    text-decoration:none;
+    color:white;
+    font-weight:600 ;
+    
+}
+.tab{
+    margin: 0 1rem 0 0;
+
+}
+
+h1{
+    font-family:cursive;
+}
+
+#form{
+    text-align: center;
+}

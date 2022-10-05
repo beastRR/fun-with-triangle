@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>triangle quiz</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Fun With Triangles</h1>
+            <table>
+                <tr>
+                    <td class="tab"><a href="./isTriangle.html">isTriangle?</a></td>
+                    <td class="tab"><a href="./quiz.html">Quiz</a></td>
+                    <td class="tab"><a href="./hypotenuse.html">Hypotenuse</a></td>
+                    <td class="tab"><a href="./areaTriangle.html">Area of Triangle</a></td>
+                </tr>
+            </table>
+        </div>
+        
+        <h1 style="text-align:center;color:darkorange">QUIZ.. </h1>
+        <form id="form">
+        <label><b>Question1: What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</label>
+        
+        <br/><br/>
+        <input type='radio' name="Question1" value="45">45°</input>
+        <input type='radio' value="90" name="Question1">90°</input>
+        <input type='radio' value="60" name="Question1">60°</input>
+        <br/><br/>
+        <label>Question2: If a triangle has an angle of 90 degrees, what is it called?</label>
+        <br/><br/>
+        <input type='radio' name="Question2" value="obtuse">obtuse</input>
+        <input type='radio' name="Question2" value="acute">acute</input>
+        <input type='radio' name="Question2" value="right angled">right angled triangle</input>
+        <br/><br/>
+        <label>Question3: triangle has how many vertices?</label>
+        <br/><br/>
+        <input type='radio' name="Question3" value="2">2</input>
+        <input type='radio' name="Question3" value="3">3</input>
+        <input type='radio' name="Question3" value="4">4</input>
+        </b><br/><br/>
+        <button id="subBtn">submit</button>
+
+    </form>
+        <!-- <button id="subBtn">submit</button> -->
+        <br/><br/>
+        <div style="color:green;text-align:center;font-size:34px;font-weight:bolder;" id="output">score</div>
+     <script src="quiz.js"></script>
+    </body>
+</html>
